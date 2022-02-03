@@ -1,13 +1,13 @@
 <template>
   <div
-    class="relative"
+    class=""
   >
-    <div class="nav-content flex text-white flex-col py-4 lg:flex-row lg:h-navHeight font-sans absolute">
+    <div class="nav-content flex text-white flex-col py-4 lg:flex-row lg:h-navHeight font-sans w-full">
       <div class="brand">
         <LogoSmall />
       </div>
       <div
-        class="nav-link md:w-full my-4 sm:my-0 md:my-0 md:flex md:items-center hidden"
+        class="nav-link md:w-full my-4 sm:my-0 md:my-0 md:flex md:items-center"
       >
         <ul
           class="

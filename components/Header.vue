@@ -1,6 +1,6 @@
 <template>
   <div
-    class="header-kaltra min-h-screen h-screen px-4 sm:px-8 2xl:px-60 md:px-16 pb-10"
+    class="header-kaltra min-h-screen px-4 sm:px-8 2xl:px-60 md:px-16 pb-10"
   >
     <Navbar />
     <div class="header-content h-full flex items-center">
