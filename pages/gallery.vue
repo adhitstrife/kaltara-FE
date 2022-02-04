@@ -1,5 +1,5 @@
 <template>
-  <div class="gallery">
+  <main-layout class="gallery">
     <div class="header">
       <gallery-header />
     </div>
@@ -20,15 +20,16 @@
         <woderfull-indonesia />
       </div>
     </div>
-  </div>
+  </main-layout>
 </template>
 
 <script>
 import GalleryList from '~/components/gallery/GalleryList.vue'
 import TourismWhite from '~/components/gallery/TourismWhite.vue'
 import WonderfullKaltra from '~/components/WonderfullKaltra.vue'
+import MainLayout from "~/components/Main.vue";
 export default {
-  components: { WonderfullKaltra, TourismWhite, GalleryList },
+  components: { WonderfullKaltra, TourismWhite, GalleryList, MainLayout },
 }
 </script>
 

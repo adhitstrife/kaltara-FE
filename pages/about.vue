@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <main-layout class="about">
     <div class="header">
         <header-about />
     </div>
@@ -17,21 +17,16 @@
     <div class="event">
       <event />
     </div>
-    <div class="footer">
-      <page-footer />
-    </div>
-    <div class="wonderfull-indonesia">
-      <woderfull-indonesia />
-    </div>
-  </div>
+  </main-layout>
 </template>
 
 <script>
 import AboutContentText from '~/components/about/AboutContentText.vue'
 import HeaderAbout from '~/components/about/HeaderAbout.vue'
 import MapFrame from '~/components/about/MapFrame.vue'
+import MainLayout from "~/components/Main.vue";
 export default {
-  components: { AboutContentText, HeaderAbout, MapFrame },
+  components: { AboutContentText, HeaderAbout, MapFrame, MainLayout },
 }
 </script>
 

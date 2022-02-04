@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <main-layout class="main">
     <div class="header">
       <Header />
     </div>
@@ -18,13 +18,7 @@
     <div class="informatio">
       <latest-information />
     </div>
-    <div class="footer">
-      <page-footer />
-    </div>
-    <div class="wonderfull-indonesia">
-      <woderfull-indonesia />
-    </div>
-  </div>
+  </main-layout>
 </template>
 
 <script>
@@ -32,10 +26,9 @@ import Event from '~/components/Event.vue'
 import LatestInformation from '~/components/LatestInformation.vue'
 import Tourism from '~/components/Tourism.vue'
 import WonderfullKaltra from '~/components/WonderfullKaltra.vue'
-import PageFooter from "~/components/PageFooter.vue";
-import WoderfullIndonesia from '~/components/WoderfullIndonesia.vue'
+import MainLayout from "~/components/Main.vue";
 export default {
-  components: {WonderfullKaltra, Event, Tourism, LatestInformation, PageFooter  }
+  components: {WonderfullKaltra, Event, Tourism, LatestInformation, MainLayout  }
 }
 </script>
 ,

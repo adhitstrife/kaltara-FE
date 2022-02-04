@@ -3,7 +3,7 @@
     class="header-kaltra min-h-screen px-4 sm:px-8 2xl:px-60 md:px-16 pb-10"
   >
     <Navbar />
-    <div class="header-content h-full flex items-center">
+    <div class="header-content h-full flex items-center mt-32">
       <div class="search-bar-and-hero w-full">
         <div
           class="hero-text text-center text-2xl md:text-3xl xl:text-5xl 2xl:text-6xl text-white font-bold"

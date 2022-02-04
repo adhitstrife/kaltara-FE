@@ -47,14 +47,14 @@ export default {
     [
       "nuxt-gmaps",
       {
-        key: 'AIzaSyAzUgfX6Fm_tyFd5mNsZ-lor3abK_yQEw8'
+        key: process.env.GOOGLE_API_KEY
       }
     ]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'https://api.hospitalityofbultiya.com',
+    baseURL: process.env.BASE_URL,
     headers: {
       common: {
         'Access': 'web'
